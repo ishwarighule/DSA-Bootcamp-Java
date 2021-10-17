@@ -5,28 +5,28 @@
 1. Write a program to print whether a number is even or odd, also take input.
 
 
-import java.io.*;
-import java.util.Scanner;
+    import java.io.*;
+    import java.util.Scanner;
 
-public class Main
-{
-    public static void main(String[] args) {
-        int num;
-        System.out.println("Enter a number");
+    public class Main
+    {
+           public static void main(String[] args) {
+           int num;
+           System.out.println("Enter a number");
         
-        Scanner input = new Scanner(System.in);
+          Scanner input = new Scanner(System.in);
         
-        num = input.nextInt();
+          num = input.nextInt();
         
-        if(num%2==0){
+         if(num%2==0){
             System.out.println("Number is even");
-        }
-        else{
-            System.out.println("Number is odd");
-        }
+          }
+         else{
+             System.out.println("Number is odd");
+           }
         
+         }
     }
-}
 
 
 
